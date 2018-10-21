@@ -8,12 +8,8 @@
     url("../fonts/IRAN.ttf") format("truetype");
     }
 /* all style css */
-*{
+*,.wrap h1{
     font-family: "IRAN";
-}
-
-.wrap h1{
-    font-family: "IRAN" !important;
 }
 
 /* admin right sidebar style */
