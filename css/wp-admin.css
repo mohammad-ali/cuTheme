@@ -1,0 +1,57 @@
+/* author:mohammadali kazeminejad */
+/* add font iran sans */
+@font-face {
+    font-family: "IRAN";
+    src: url("../fonts/IRAN.eot") format("embedded-opentype"),
+    url("../fonts/IRAN.eot") format("embedded-opentype"),
+    url("../fonts/IRAN.woff") format("woff"),
+    url("../fonts/IRAN.ttf") format("truetype");
+    }
+/* all style css */
+*{
+    font-family: "IRAN";
+}
+
+.wrap h1{
+    font-family: "IRAN" !important;
+}
+
+/* admin right sidebar style */
+#adminmenu{
+    background-image: linear-gradient(to bottom, #47168e, #257c75);
+    box-shadow: -4px 0px 10px rgba(14, 14, 14, 0.48) in
+}
+
+/* remove revolution slider in bottom of page */
+mymetabox_revslider_0{
+	display:none;
+}
+
+/* admin topbar style */
+#wpadminbar{
+  background-image: linear-gradient(to right, #47168e, #257c75);
+  border-bottom: 1px solid #C0C1C0;
+}
+
+
+/* hidden footer panel */
+#wpfooter{
+  display: none;
+}
+
+#misc-publishing-actions{
+	display:none;
+}
+
+.status-draft {
+    background: #fffac4 !important;
+}
+#wp-submenu wp-submenu-wrap li:nth-child(3){
+	display:none;
+}
+
+#wp-admin-bar-wp-logo{
+	display:none;
+}
+
+
